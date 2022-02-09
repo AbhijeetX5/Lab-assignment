@@ -2,11 +2,11 @@
 
 int main(){
     int m,n,o;
-    m=3;
-    n=2;
-    o=3;
-    int m1[m][n]={{1,2},{3,4},{5,6}};
-    int m2[n][o]={{1,2,3},{4,5,6}};
+    printf("Row and Coulmn of first matrix");
+    scanf("%d %d",&m,&n);
+    printf("Row and Coulmn of secound matrix");
+    scanf("%d %d",&n,&o);
+    int m1[m][n],m2[n][o];
     /*       1 2
         m1 = 3 4  , m2 = 1 2 3 
              5 6         4 5 6        */
